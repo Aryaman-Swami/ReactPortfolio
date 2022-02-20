@@ -1,0 +1,14 @@
+$mainColor: #15023a;
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+$width: 768px;
+*{
+   
+    line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+}
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
