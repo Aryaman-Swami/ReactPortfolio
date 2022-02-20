@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
      "homepage": "https://aryaman-swami.github.io",
   "dependencies": {
     "@emotion/react": "^11.7.1",
