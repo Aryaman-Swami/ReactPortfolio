@@ -87,7 +87,7 @@ useEffect(() => {
     animation.start({opacity:0 })
   }
 
-}, [inView]);
+}, [animation,inView]);
 
 
   // create an instance of Scrambler using useRef.

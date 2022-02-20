@@ -1,13 +1,13 @@
-import { useState } from "react";
+
 import "./contact.scss";
 
 export default function Contact() {
-  const [message, setMessage] = useState(false);
+  // const [message, setMessage] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   setMessage(true);
+  // };
   return (
     <div className="contact" id="contact">
       
@@ -38,7 +38,7 @@ export default function Contact() {
       </div>
       <div className="form-field col x-100 align-center">
          <input className="submit-btn" type="submit" value="Submit"/>
-         {message && <span>Thanks, I'll reply ASAP :)</span>}
+        
       </div>
    </form>
 </section>
